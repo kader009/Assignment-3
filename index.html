@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- bootstrap link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- google font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
   <!-- css link -->
   <link rel="stylesheet" href="style.css">
   <title>TeachSquare</title>
@@ -16,28 +18,31 @@
 <!-- hero section start -->
   
 
-<header>
+<header >
 
-  <div class="container">
+  <div class="container mt-4">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">TeachSquare</a>
+        <a class="navbar-brand fw-bold h1" href="#">TeachSquare</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item me-5">
+            <li class="nav-item me-5 h6 text-secondary">
               <a class="nav-link " aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item me-5">
+            <li class="nav-item me-5 h6 text-secondary">
               <a class="nav-link" href="#">Features</a>
             </li>
-            <li class="nav-item me-5">
+            <li class="nav-item me-5 h6 text-secondary">
               <a class="nav-link" href="#">Pricing</a>
             </li>
-            <li class="nav-item me-5">
-              <a class="nav-link ">Disabled</a>
+            <li class="nav-item me-5 h6 text-secondary">
+              <a class="nav-link ">About us</a>
+            </li>
+            <li class="nav-item me-5 h6 text-secondary">
+              <a class="nav-link ">Register</a>
             </li>
           </ul>
         </div>
@@ -50,16 +55,191 @@
 <!-- slider start -->
 
 
+<div class="container mt-5">
 
-
-
-
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="cover/cover-1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block ">
+          <h5 class=" display-6 fw-semibold ">Get Started Digital etech <br> Learning</h5>
+          <p class="fs-6 ">Education is the key to all the locked doors of the unknown.</p>
+          <div class="btn btn-primary ">Get Started</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="cover/cover-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5 class=" display-6 fw-semibold ">Your Furute Now It's Your Hand, Learn With Your Self</h5>
+          <p class="fs-6 ">Education is a never-ending source of knowledge</p>
+          <div class="btn btn-primary">Get Started</div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="cover/cover-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5 class=" display-6 fw-semibold ">Over-simplified perhaps, but hopefully easy to understand</h5>
+          <p class="fs-6 ">A well-educated person knows about a lot of things.</p>
+          <div class="btn btn-primary">Get Started</div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
 
 <!-- end -->
 
 </header>
 
 
+<!-- end -->
+
+
+
+<!-- popular course section start -->
+
+
+<section class="p-5 mt-5">
+
+  <h1 class="text-center">Discover Our New Course Here</h1>
+  <p class="text-center word-wrap">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+
+<div class="container mt-5">
+
+  <div class="row ">
+
+    <div class="col-lg-6">
+
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12">
+            <img src="course/course-1.png" class="img-fluid rounded-start w-100" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+              <p class="card-text">The five main principles of UX design. There are many important principles within UX design but to.</p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="course/course-3.png" class="img-fluid rounded-start w-100" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Fullstack Web Development</h5>
+              <p class="card-text">While a full stack developer works on web apps, a software developer works on software or native apps which we use.
+              </p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="course/course-5.png" class="img-fluid rounded-start w-100" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Photography Basic Rules</h5>
+              <p class="card-text">Keep an eye on the edges of your frame to make sure the person/animal you're photographing body parts by it.</p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+
+      <div class="card mb-3 d-md-none d-sm-none d-lg-block" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="course/course-2.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Javascript Basic to advanced</h5>
+              <p class="card-text">If you're learning on your own, it can take six to nine months to become proficient in JavaScript.</p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 d-md-none d-sm-none d-lg-block" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="course/course-4.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <p class="card-text">Digital marketing, also known as online marketing, refers to advertising delivered through digital.</p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 d-md-none d-sm-none d-lg-block" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="course/course-6.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Motion Graphics</h5>
+              <p class="card-text">Essentially, it's animated graphic design. Ever since motion graphics first entered the scene.</p>
+              <p class="card-text"><small class="text-primary fs-6 fw-semibold">Price:20$</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+</div>
+
+<div class="text-center mt-3 d-lg-none">
+  <button class="btn btn-primary">View All</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -70,6 +250,62 @@
 
 
 <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
