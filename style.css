@@ -1,7 +1,8 @@
-
 body{
   font-family: 'Poppins', sans-serif;
 }
+
+/* carousel img modify */
 .carousel-item img{
   filter: brightness(50%);
 }
